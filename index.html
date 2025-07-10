@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Felix Marsaptandhiyo | Backend Developer</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <script src="https://unpkg.com/alpinejs" defer></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -105,22 +105,22 @@
   <section id="skills" class="scroll-mt-24 bg-gray-800 px-6 md:px-12 lg:px-24 py-8" data-aos="zoom-in">
     <h2 class="text-2xl font-semibold mb-4 text-blue-300">Technical Skills</h2>
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
-      <span class="bg-blue-700 rounded-full px-3 py-1 text-sm">Golang</span>
-      <span class="bg-blue-700 rounded-full px-3 py-1 text-sm">PostgreSQL</span>
-      <span class="bg-blue-700 rounded-full px-3 py-1 text-sm">MySQL</span>
-      <span class="bg-blue-700 rounded-full px-3 py-1 text-sm">gRPC</span>
-      <span class="bg-blue-700 rounded-full px-3 py-1 text-sm">Datadog</span>
-      <span class="bg-blue-700 rounded-full px-3 py-1 text-sm">Redis</span>
-      <span class="bg-blue-700 rounded-full px-3 py-1 text-sm">Firestore</span>
-      <span class="bg-blue-700 rounded-full px-3 py-1 text-sm">Google Cloud Storage</span>
-      <span class="bg-blue-700 rounded-full px-3 py-1 text-sm">Postman API</span>
-      <span class="bg-blue-700 rounded-full px-3 py-1 text-sm">Ruby on Rails</span>
-      <span class="bg-blue-700 rounded-full px-3 py-1 text-sm">Docker</span>
-      <span class="bg-blue-700 rounded-full px-3 py-1 text-sm">Microservices</span>
-      <span class="bg-blue-700 rounded-full px-3 py-1 text-sm">API Development</span>
-      <span class="bg-blue-700 rounded-full px-3 py-1 text-sm">Datadog</span>
-      <span class="bg-blue-700 rounded-full px-3 py-1 text-sm">Jira</span>
-      <span class="bg-blue-700 rounded-full px-3 py-1 text-sm">Notion Productivity Software</span>
+      <span class="bg-blue-600 rounded-full px-3 py-1 text-sm">Golang</span>
+      <span class="bg-indigo-600 rounded-full px-3 py-1 text-sm">PostgreSQL</span>
+      <span class="bg-teal-600 rounded-full px-3 py-1 text-sm">MySQL</span>
+      <span class="bg-purple-600 rounded-full px-3 py-1 text-sm">gRPC</span>
+      <span class="bg-cyan-600 rounded-full px-3 py-1 text-sm">Datadog</span>
+      <span class="bg-rose-600 rounded-full px-3 py-1 text-sm">Redis</span>
+      <span class="bg-emerald-600 rounded-full px-3 py-1 text-sm">Firestore</span>
+      <span class="bg-fuchsia-600 rounded-full px-3 py-1 text-sm">Google Cloud Storage</span>
+      <span class="bg-orange-600 rounded-full px-3 py-1 text-sm">Postman API</span>
+      <span class="bg-pink-600 rounded-full px-3 py-1 text-sm">Ruby on Rails</span>
+      <span class="bg-yellow-600 rounded-full px-3 py-1 text-sm">Docker</span>
+      <span class="bg-lime-600 rounded-full px-3 py-1 text-sm">Microservices</span>
+      <span class="bg-sky-600 rounded-full px-3 py-1 text-sm">API Development</span>
+      <span class="bg-amber-600 rounded-full px-3 py-1 text-sm">Datadog</span>
+      <span class="bg-fuchsia-600 rounded-full px-3 py-1 text-sm">Jira</span>
+      <span class="bg-teal-600 rounded-full px-3 py-1 text-sm">Notion Productivity Software</span>
     </div>
   </section>
 
@@ -141,48 +141,115 @@
   </div>
 </section>
 
-<!-- CV Download & Testimonials -->
-<section id="cv" class="scroll-mt-24 px-6 md:px-12 lg:px-24 py-8" data-aos="fade-up">
-  <h2 class="text-2xl font-semibold mb-4 text-blue-300">CV & Recommendations</h2>
-  <div class="mb-6">
-    <a href="assets/CV-Felix.pdf" download class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full shadow transition">⬇️ Download My CV</a>
-  </div>
-  <div class="space-y-4">
-    <blockquote class="bg-gray-800 p-4 rounded-lg shadow border-l-4 border-blue-500">
-      <p class="italic text-gray-300">"Felix is a fast learner with a good communication and collaboration skill. He is a great addition to any team."</p>
-      <p class="text-sm text-blue-400 mt-2">— Hudzaifah Saiful Haq, Former Product Manager for User Registration, OAuth2, and 2FA at PrivyID</p>
-    </blockquote>
+<!-- Certificates -->
+<section id="certificates" class="scroll-mt-24 px-6 md:px-12 lg:px-24 py-8 bg-gray-800" data-aos="fade-up">
+  <h2 class="text-2xl font-semibold mb-6 text-blue-300">Certificates</h2>
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-    <blockquote class="bg-gray-800 p-4 rounded-lg shadow border-l-4 border-blue-500">
-      <p class="italic text-gray-300">"He is a recommendable BE Engineer for any team.. he can communicate well, create a solution fast, and can easily adapt to any product field."</p>
-      <p class="text-sm text-blue-400 mt-2">— Anggara Catra Prabaswara, Former Product Manager for Merchant Dashboard at PrivyID</p>
-    </blockquote>
+    <div class="bg-gray-900 rounded-xl p-6 shadow hover:shadow-lg transition transform hover:-translate-y-1">
+      <h3 class="text-lg font-bold text-blue-200 mb-2">SQL (Advanced) Certificate</h3>
+      <p class="text-gray-400 text-sm mb-3">Issued by Hackerrank</p>
+      <a href="https://www.hackerrank.com/certificates/iframe/3ec37f748715" target="_blank" class="text-blue-400 hover:underline text-sm">🎓 View Certificate</a>
+    </div>
+
+    <div class="bg-gray-900 rounded-xl p-6 shadow hover:shadow-lg transition transform hover:-translate-y-1">
+      <h3 class="text-lg font-bold text-blue-200 mb-2">Go (Intermediate) Certificate</h3>
+      <p class="text-gray-400 text-sm mb-3">Issued by Hackerrank</p>
+      <a href="https://www.hackerrank.com/certificates/iframe/dac38482df98" target="_blank" class="text-blue-400 hover:underline text-sm">🎓 View Certificate</a>
+    </div>
+
+    <div class="bg-gray-900 rounded-xl p-6 shadow hover:shadow-lg transition transform hover:-translate-y-1">
+      <h3 class="text-lg font-bold text-blue-200 mb-2">Rest API (Intermediate) Certificate</h3>
+      <p class="text-gray-400 text-sm mb-3">Issued by Hackerrank</p>
+      <a href="https://www.hackerrank.com/certificates/iframe/c76aae20b707" target="_blank" class="text-blue-400 hover:underline text-sm">🎓 View Certificate</a>
+    </div>
+
+    <div class="bg-gray-900 rounded-xl p-6 shadow hover:shadow-lg transition transform hover:-translate-y-1">
+      <h3 class="text-lg font-bold text-blue-200 mb-2">SQL (Intermediate) Certificate</h3>
+      <p class="text-gray-400 text-sm mb-3">Issued by Hackerrank</p>
+      <a href="https://www.hackerrank.com/certificates/iframe/7186c2a9702f" target="_blank" class="text-blue-400 hover:underline text-sm">🎓 View Certificate</a>
+    </div>
+
+    <div class="bg-gray-900 rounded-xl p-6 shadow hover:shadow-lg transition transform hover:-translate-y-1">
+      <h3 class="text-lg font-bold text-blue-200 mb-2">Problem Solving (Intermediate) Certificate</h3>
+      <p class="text-gray-400 text-sm mb-3">Issued by Hackerrank</p>
+      <a href="https://www.hackerrank.com/certificates/iframe/e9be44756cfc" target="_blank" class="text-blue-400 hover:underline text-sm">🎓 View Certificate</a>
+    </div>
 
   </div>
 </section>
 
+<!-- CV Download & Testimonials -->
+<section id="cv" class="scroll-mt-24 px-6 md:px-12 lg:px-24 pt-8 pb-4" data-aos="fade-up">
+  <h2 class="text-2xl font-semibold mb-4 text-blue-300">CV & Recommendations</h2>
+  <div class="mb-6">
+    <a href="assets/CV-Felix.pdf" download
+       class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-full shadow transition">
+      ⬇️ Download My CV
+    </a>
+  </div>
+</section>
+
+<!-- Testimonials + Submit -->
+<section id="live-testimonials" class="scroll-mt-24 px-6 md:px-12 lg:px-24 pt-4 pb-8 bg-gray-900 text-white" data-aos="fade-up">
+  <h2 class="text-2xl font-semibold mb-6 text-blue-300">Recommendations</h2>
+  <div id="testimonial-list" class="space-y-4 mb-8"></div>
+
+  <!-- Submit Recommendation Button -->
+  <div class="mt-6 text-center">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9boSZV3xsfRKqWw2SfkB6H0UjINzfPkEjuPRvCR6vqcEatg/viewform?usp=header"
+       target="_blank"
+       class="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-full shadow transition">
+      ✍️ Submit Your Recommendation
+    </a>
+  </div>
+</section>
+
+<script>
+  fetch("https://gsx2json.com/api?id=1XH_NZlrdU46j4DR2H3EDpLm4AuybpXN1ggclNEg00Jg&sheet=Form%20Responses%201")
+          .then(res => res.json())
+          .then(data => {
+            const container = document.getElementById('testimonial-list');
+            data.rows.forEach(row => {
+              const name = row["Full Name"];
+              const recommendation = row["Your Recommendation"];
+              const position = row["Your Position / Company"];
+
+              if (recommendation && name) {
+                const el = document.createElement("blockquote");
+                el.className = "bg-gray-800 p-4 rounded-lg shadow border-l-4 border-green-500";
+                el.innerHTML = `
+          <p class="italic text-gray-300">"${recommendation}"</p>
+          <p class="text-sm text-green-400 mt-2">— ${name}${position ? ", " + position : ""}</p>
+        `;
+                container.appendChild(el);
+              }
+            });
+          });
+</script>
+
 
   <!-- Contact -->
-  <section id="contact" class="scroll-mt-24 px-6 md:px-12 lg:px-24 py-8" data-aos="fade-up">
+  <section id="contact" class="scroll-mt-24 px-6 md:px-12 lg:px-24 py-8 bg-gray-800" data-aos="fade-up">
     <h2 class="text-2xl font-semibold mb-4 text-blue-300">Contact & Links</h2>
     <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-      <li class="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 transition rounded-lg p-4">
+      <li class="flex items-center gap-2 bg-gray-900 hover:bg-gray-700 transition rounded-lg p-4">
         <span class="text-blue-400 text-xl">📧</span>
         <a href="mailto:felix.hyun123@gmail.com" class="text-blue-300 hover:underline break-all">felix.hyun123@gmail.com</a>
       </li>
-      <li class="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 transition rounded-lg p-4">
+      <li class="flex items-center gap-2 bg-gray-900 hover:bg-gray-700 transition rounded-lg p-4">
         <span class="text-blue-400 text-xl">🔗</span>
         <a href="https://www.linkedin.com/in/felix-marsaptandhiyo-4ba25722a" target="_blank" class="text-blue-300 hover:underline break-all">linkedin.com/in/felix</a>
       </li>
-      <li class="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 transition rounded-lg p-4">
+      <li class="flex items-center gap-2 bg-gray-900 hover:bg-gray-700 transition rounded-lg p-4">
         <span class="text-blue-400 text-xl">🧑‍💻</span>
         <a href="https://gitlab.com/Felixmarsa" target="_blank" class="text-blue-300 hover:underline break-all">gitlab.com/Felixmarsa</a>
       </li>
-      <li class="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 transition rounded-lg p-4">
+      <li class="flex items-center gap-2 bg-gray-900 hover:bg-gray-700 transition rounded-lg p-4">
         <span class="text-blue-400 text-xl">🐙</span>
         <a href="https://github.com/Felixmarsa" target="_blank" class="text-blue-300 hover:underline break-all">github.com/Felixmarsa</a>
       </li>
-      <li class="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 transition rounded-lg p-4">
+      <li class="flex items-center gap-2 bg-gray-900 hover:bg-gray-700 transition rounded-lg p-4">
         <span class="text-blue-400 text-xl">📄</span>
         <a href="https://eprints.amikom.ac.id/id/eprint/317/" target="_blank" class="text-blue-300 hover:underline break-all">AMIKOM Eprints</a>
       </li>
